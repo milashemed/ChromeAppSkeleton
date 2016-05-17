@@ -1,0 +1,62 @@
+    1  pwd
+    2  mkdir
+    3  mkdir code
+    4  cd code
+    5  mkdir js
+    6  cd js
+    7  mkdir js/electron
+    8  mkdir electron
+    9  cd elctron
+   10  git clone https://github.com/atom/electron-quick-start
+   11  cd electron-quick-start/
+   12  npm install && npm start
+   13  pwd
+   14  cd code
+   15  ls
+   16  mkdir java
+   17  ls
+   18  git clone https://github.com/google/gson
+   19  ls
+   20  git add .
+   21  git commit -m "First Commit"
+   22  git push origin master
+   23  git push Kenya_Met master
+   24  git config fig --global user.name "Salim Said Hemed"
+   25  git config  --global user.name "Salim Said Hemed"
+   26  git config  --global user.email "hemed.dev@gmail.com"
+   27  git push Kenya_Met master
+   28  git config --global credential.helper.wincred
+   29  git config --list
+   30  git config user.name
+   31  git config user.email
+   32  git status
+   33  git push Kenya_Met master
+   34  git remote add origin git@github.com:milashemed/Kenya_Met.git
+   35  git remote -v
+   36  git push Kenya_Met master
+   37  git push -u origin --all
+   38  git remote add origin https://github.com/milashemed/Kenya_Met.git
+   39  git remote add originmet https://github.com/milashemed/Kenya_Met.git
+   40  git push -u originmet --all
+   41  git pull https://github.com/milashemed/Kenya_Met.git
+   42  git commit
+   43  git push -u originmet --all
+   44  ls
+   45  git init
+   46  git push -u originmet --all
+   47  git fetch
+   48  git rebase master
+   49  git commit
+   50  git push -u originmet --all
+   51  git init .
+   52  git add .
+   53  git commit -m "Initial Commit of Chrome App Skeleton and Tutorial on 17th May 2016"
+   54  git push origin master
+   55  history
+   56  remote add originchrome https://github.com/milashemed/ChromeAppSkeleton
+   57  git remote add originchrome https://github.com/milashemed/ChromeAppSkeleton
+   58  git push originchrome master
+   59  git pull originchrome
+   60  git pull originchrome master
+   61  git push originchrome master
+   62  history >> githistory.txt
